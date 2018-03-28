@@ -3,7 +3,8 @@
 ### Agenda
 
 1. Welcome
-2. Call for volunteers 
+2. Call for volunteers
+3. Social media - https://www.facebook.com/pymavs/ & https://www.meetup.com/PyMavs/
 3. DFW Pythoneer meetup https://www.meetup.com/dfwpython/events/247432309/
 4. Misc. events
 5. Q & A
