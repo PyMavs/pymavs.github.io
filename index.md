@@ -13,7 +13,8 @@ After the meeting we'll be helping everyone setting up Python3, Jupyter, Virtual
 
 - [Python 3](https://www.python.org/download/releases/3.0/)
 - [Jupyter](http://jupyter.org/)
-- [conda - Package Manager+](https://conda.io/docs/)
+- [Anaconda - Install](https://www.anaconda.com/download/#macos)
+- [Anconda (conda) Documentation](https://conda.io/docs/)
 - [PIP - Package Manager](https://pip.pypa.io/en/stable/)
 - [Virtual pip env Setup](https://docs.pipenv.org/)
 - [Virtual env wrapper - Create isolated Python environments](https://pypi.python.org/pypi/virtualenv)
