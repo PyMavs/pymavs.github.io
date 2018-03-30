@@ -11,10 +11,10 @@
 
 After the meeting we'll be helping everyone setting up Python3, Jupyter, Virtual envs., Condas etc.
 
-- https://www.python.org/download/releases/3.0/
-- http://jupyter.org/
-- https://conda.io/docs/
-- https://pip.pypa.io/en/stable/
-- https://docs.pipenv.org/
-- https://pypi.python.org/pypi/virtualenv
-- https://virtualenvwrapper.readthedocs.io/en/latest/index.html
+- [Python 3](https://www.python.org/download/releases/3.0/)
+- [Jupyter](http://jupyter.org/)
+- [conda - Package Manager+](https://conda.io/docs/)
+- [PIP - Package Manager](https://pip.pypa.io/en/stable/)
+- [Virtual pip env Setup](https://docs.pipenv.org/)
+- [Virtual env wrapper - Create isolated Python environments](https://pypi.python.org/pypi/virtualenv)
+- [Virtual env wrapper - Documentation](https://virtualenvwrapper.readthedocs.io/en/latest/index.html)
