@@ -1,0 +1,62 @@
+
+.container{
+    padding-top: 50px;
+}
+.container-fluid {
+    padding-top: 50px;
+   
+}
+
+
+.header{
+    background-color: black;
+
+    height: 50px;
+}
+
+
+.landing{
+    background: #0C51AD;
+    color: white;
+    padding-top: 80px;
+    /* Change height on mobile later   */
+    height: calc(75vh); 
+}
+
+/*Member Section*/
+#members{
+    background-color: #FED08A;
+}
+
+.members > div{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.member-image-container{
+    display: flex;
+    justify-content: center;
+}
+.member-image{
+    width: 125px;
+    height: 125px;
+    background-color: gray;
+    border-radius: 100%;
+}
+.member-name{
+    
+}
+
+.member-title{
+    
+}
+
+
+
+
+
+
+/*Footer Section*/
+footer{
+    background-color: dimgray
+}
