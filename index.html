@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="resc/bootstrap/bootstrap.css"></link>
-    <link rel="stylesheet" href="index.css"></link>
-    
+    <link rel="stylesheet" href="resc/bootstrap/bootstrap.css"/>
+    <link rel="stylesheet" href="index.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 <body>
     <div class="main-content">
@@ -14,32 +14,57 @@
         <div class="container-fluid landing text-center" id="home">
             
             <div class="landing-info">
-                <h2>Intro Title!</h2>
-                <p>Sub text</p>
+                <h2>Welcome to PyMavs!</h2>
+                <p>At UTA</p>
             </div>
             
             <!--  @TODO: Pull Next Meeting from a JSON file. 
                          Only render next meeting if JSON file has data
             -->
-            <div class="meeting-container"> 
-                <h4 class="meeting-label">Next Meeting: </h4>
-                <p class="meeting-title">General Body Meeting</p>
-                <p class="meeting-date">March 29, 18</p>
-            </div>
-            
             <div class="groupme-container">
                 <a class="btn btn-light" href="https://groupme.com/join_group/39663860/GBqftt">
                     <img src="./resc/img/groupmeLogo.svg" width="20px" height="20px"/> Join our GroupMe
                 </a>
             </div>
+            
+            
         </div>
-        
+        <div class="jumbotron" id="events">
+            <div class="container text-center" >
+                <h2 class="title">Upcoming Events</h2>
+                <div class="d-flex justify-content-center flex-wrap">
+                    <div>
+                        <div class="meeting-container "> 
+                            <h5 class="meeting-title">Next Meeting</h5>
+                            <p class="meeting-label">General Body Meeting</p>
+                            <p class="meeting-date">March 29, 18</p>
+                            <small class="meeting-location">ERB, Room 301</small>
+                        </div>
+                    </div>
+                    <div >
+                        <div class="meeting-container "> 
+                            <h5 class="meeting-title">School Workshop</h5>
+                            <a href="#" class="meeting-label">Intro to Git & Github</a>
+                            <p class="meeting-date">March 29, 18</p>
+                            <small class="meeting-location">Central Library, Room 315A</small>
+                        </div>
+                    </div>
+                    <div >
+                        <div class="meeting-container "> 
+                            <h5 class="meeting-title">PyMavs Workshop</h5>
+                            <p class="meeting-label">Learn the basics of Python 3</p>
+                            <p class="meeting-date">April 20, 18</p>
+                            <small class="meeting-location">ERB, Room 301</small>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>
         
         <div class="container text-center" id="about">
             <h2 class="title">About us</h2>
-            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dapibus nisl congue mollis interdum. Donec dignissim iaculis ante ut feugiat. Nulla nec semper tortor. Sed quis posuere tellus. Suspendisse quis dapibus odio. Suspendisse faucibus turpis at sollicitudin mollis. Cras consequat leo eget elit semper efficitur. Nulla facilisi. Sed sed ipsum ut dolor pulvinar tincidunt.</p>
-
-            <p>Cras facilisis, quam et sollicitudin dictum, lectus magna pulvinar odio, vel aliquam libero ligula vel magna. In hac habitasse platea dictumst. Vestibulum in mauris in sem condimentum dictum. Vivamus justo felis, vestibulum a suscipit in, accumsan vitae justo. Duis vulputate eget nulla sed dignissim. Mauris dignissim convallis nisl.
+            <p> 
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dapibus nisl congue mollis interdum. Donec dignissim iaculis ante ut feugiat. Nulla nec semper tortor. Sed quis posuere tellus. Suspendisse quis dapibus odio. Suspendisse faucibus turpis at sollicitudin mollis. Cras consequat leo eget elit semper efficitur. Nulla facilisi. Sed sed ipsum ut dolor pulvinar tincidunt.
             </p>
         </div>
         
@@ -71,7 +96,7 @@
         </div>
         
         <div class="container">
-            <h2 class="title">Join Our Mailing List</h2>
+            <h2 class="title text-center">Join Our Mailing List</h2>
             
             <!-- @TODO: Write Javascript to 
                             1: validate content
@@ -79,13 +104,15 @@
                             3: Stop user from sending too many requests 
             -->
             <form >
-                <div class="form-group">
-                    <label for="fnameInput">First Name</label>
-                    <input class="form-control" type="text" name="fnameInput" id="fnameInput"/>
-                </div>
-                <div class="form-group">
-                    <label for="lnameInput">Last Name</label>
-                    <input class="form-control" type="text" name="lname" id="lnameInput"/>
+                <div class="row">
+                    <div class="form-group col-md-6">
+                        <label for="fnameInput">First Name</label>
+                        <input class="form-control" type="text" name="fnameInput" id="fnameInput"/>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="lnameInput">Last Name</label>
+                        <input class="form-control" type="text" name="lname" id="lnameInput"/>
+                    </div>
                 </div>
                 <div class="form-group">
                     <label for="emailInput">Mavs Email</label>
@@ -95,7 +122,9 @@
             </form>
         </div>
         
-        <footer>Footer</footer>
+        <footer>
+            <small>Page Created by Ivan Jaimes</small>
+        </footer>
           
     </div>
 

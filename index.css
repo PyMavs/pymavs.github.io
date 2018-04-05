@@ -1,10 +1,11 @@
 
 .container{
-    padding-top: 50px;
+    padding-top: 20px;
     padding-bottom: 50px;
 }
+
 .container-fluid {
-    padding-top: 50px;
+    padding-top: 20px;
     padding-bottom: 50px;
    
 }
@@ -12,17 +13,56 @@
 
 .header{
     background-color: black;
-
     height: 50px;
 }
 
+.title{
+    padding: 5px 0px;
+}
 
 .landing{
     background: #0C51AD;
     color: white;
     padding-top: 80px;
+    padding-bottom: 80px;
     /* Change height on mobile later   */
-    height: calc(75vh); 
+    height: 400px; 
+}
+
+#events{
+    background-color: aliceblue;
+    padding: 10px;
+}
+
+#events > .container{
+    padding: 10px;
+}
+
+
+.meeting-container {
+    background-color: white;
+    border: solid black 2px;
+    border-radius: 5px;
+    min-width: 250px;
+    padding: 10px 10px;
+    margin: 25px 15px;
+    color: black;
+    text-align: left;
+}
+.meeting-container > p{
+    margin-bottom: 0px;
+}
+.meeting-label{
+    
+}
+.meeting-title{
+
+}
+.meeting-location{
+    
+}
+.meeting-date{
+
 }
 
 /*Member Section*/
@@ -60,5 +100,8 @@
 
 /*Footer Section*/
 footer{
-    background-color: dimgray
+    background-color: dimgray;
+    color:darkgray;
+    padding: 10px;
+    height: 40px;
 }
