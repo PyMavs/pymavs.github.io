@@ -18,10 +18,19 @@
                 <p>Sub text</p>
             </div>
             
+            <!--  @TODO: Pull Next Meeting from a JSON file. 
+                         Only render next meeting if JSON file has data
+            -->
             <div class="meeting-container"> 
                 <h4 class="meeting-label">Next Meeting: </h4>
                 <p class="meeting-title">General Body Meeting</p>
                 <p class="meeting-date">March 29, 18</p>
+            </div>
+            
+            <div class="groupme-container">
+                <a class="btn btn-light" href="https://groupme.com/join_group/39663860/GBqftt">
+                    <img src="./resc/img/groupmeLogo.svg" width="20px" height="20px"/> Join our GroupMe
+                </a>
             </div>
         </div>
         
@@ -59,6 +68,31 @@
                     <p class="member-title">VP</p>
                 </div>
             </div>
+        </div>
+        
+        <div class="container">
+            <h2 class="title">Join Our Mailing List</h2>
+            
+            <!-- @TODO: Write Javascript to 
+                            1: validate content
+                            2: Disable button, until valid content
+                            3: Stop user from sending too many requests 
+            -->
+            <form >
+                <div class="form-group">
+                    <label for="fnameInput">First Name</label>
+                    <input class="form-control" type="text" name="fnameInput" id="fnameInput"/>
+                </div>
+                <div class="form-group">
+                    <label for="lnameInput">Last Name</label>
+                    <input class="form-control" type="text" name="lname" id="lnameInput"/>
+                </div>
+                <div class="form-group">
+                    <label for="emailInput">Mavs Email</label>
+                    <input class="form-control" type="email" name="emailInput" id="emailInput"/>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
         </div>
         
         <footer>Footer</footer>
