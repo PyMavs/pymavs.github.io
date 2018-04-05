@@ -7,6 +7,7 @@ Developer page: Dev Branch
 ## Notes for Development
 Development page is being worked out on the 'Dev' branch.
 The page is using a simple html, CSS, JS stack with Bootstrap.
+Use [Brackets IDE](http://brackets.io/). It will auto refresh page on html/css/js changes!
 
 
 ### Suggestions for later development
