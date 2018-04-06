@@ -36,21 +36,25 @@
             </div>
         </div>
         
-        <div class="container-fluid landing text-center" id="home">
+        <div class="container-fluid landing d-flex" id="home">
             
-            <div class="landing-info">
+            <div class="landing-info row justify-content-center align-self-center flex-column mx-auto">
                 <h2>Welcome to PyMavs!</h2>
-                <p>At UTA</p>
+
+                <div class="groupme-container mx-auto">
+                    <a class="btn btn-light" href="https://groupme.com/join_group/39663860/GBqftt">
+                        <img src="./resc/img/groupmeLogo.svg" width="20px" height="20px"/> GroupMe
+                    </a>
+                    <a class="btn btn-light" href="https://www.facebook.com/pymavs/">
+                        <img src="./resc/img/facebookLogo.svg" width="15px" height="15px"/> Facebook
+                    </a>
+                </div>
             </div>
             
             <!--  @TODO: Pull Next Meeting from a JSON file. 
                          Only render next meeting if JSON file has data
             -->
-            <div class="groupme-container">
-                <a class="btn btn-light" href="https://groupme.com/join_group/39663860/GBqftt">
-                    <img src="./resc/img/groupmeLogo.svg" width="20px" height="20px"/> Join our GroupMe
-                </a>
-            </div>
+            
             
             
         </div>
@@ -128,6 +132,28 @@
                             2: Disable button, until valid content
                             3: Stop user from sending too many requests 
             -->
+            
+            <!-- Begin MailChimp Signup Form -->
+            <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+            <style type="text/css">
+                #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
+                /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+                   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+            </style>
+            <div id="mc_embed_signup">
+            <form action="https://github.us18.list-manage.com/subscribe/post?u=ca60262c67543f2faeb7f0fc8&amp;id=cb9f43de90" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                <div id="mc_embed_signup_scroll">
+                <label for="mce-EMAIL">Subscribe to our mailing list</label>
+                <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_ca60262c67543f2faeb7f0fc8_cb9f43de90" tabindex="-1" value=""></div>
+                <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                </div>
+            </form>
+            </div>
+
+            <!--End mc_embed_signup-->
+<!--
             <form >
                 <div class="row">
                     <div class="form-group col-md-6">
@@ -145,6 +171,7 @@
                 </div>
                 <button type="submit" class="btn btn-primary offset-sm-10 col-sm-2">Submit</button>
             </form>
+-->
         </div>
         
         <footer>

@@ -31,14 +31,17 @@ body{
 
 .landing{
     background: #0C51AD;
+/*
     background-image: url('./resc/img/live.jpg');
     background-repeat: no-repeat;
     background-size: 100% auto;
     background-position: bottom;
     opacity: .90;
+*/
     
     color: white;
-    padding-top: 80px;
+/*    padding-top: 30%;*/
+
     padding-bottom: 80px;
     /* Change height on mobile later   */
     height: 450px; 
