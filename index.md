@@ -30,7 +30,7 @@ After the meeting we'll be helping everyone setting up Python3, Jupyter, Virtual
 	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
 </style>
 <div id="mc_embed_signup">
-<form action="https://github.us18.list-manage.com/subscribe/post?u=ca60262c67543f2faeb7f0fc8&amp;id=cb9f43de90" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+<form action="https://github.us18.list-manage.com/subscribe/post?u=ca60262c67543f2faeb7f0fc8&amp;id=cb9f43de90" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate style="background-color: #FBFBFB;">
     <div id="mc_embed_signup_scroll">
 	<label for="mce-EMAIL">Subscribe to our mailing list</label>
 	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
