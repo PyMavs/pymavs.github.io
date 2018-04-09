@@ -18,19 +18,17 @@ body{
     margin: 0px;
 }
 
-/*
-.header{
-    background-color: black;
-    height: 50px;
+.navbar{
+    box-shadow: 1px 0px 5px black;
 }
-*/
 
 .title{
     padding: 5px 0px;
 }
 
 .landing{
-    background: #0C51AD;
+    background: #4172B0;
+    /*For Image*/
 /*
     background-image: url('./resc/img/live.jpg');
     background-repeat: no-repeat;
@@ -38,18 +36,36 @@ body{
     background-position: bottom;
     opacity: .90;
 */
-    
-    color: white;
-/*    padding-top: 30%;*/
-
+    color: #F3F3F3;
     padding-bottom: 80px;
     /* Change height on mobile later   */
     height: 450px; 
 }
 
+
+.landing-info > h2{
+    margin-bottom: 5px;
+    text-shadow: 1px 1px 5px black;
+}
+.landing-info > p{
+	color: #D8D8D8;
+    margin-bottom: 35px;
+    text-shadow: 1px 1px black;
+    
+}
+.groupme-container{
+    border-radius: 5px;
+    box-shadow: 0px 1px 5px black;
+}
+
+
 #events{
-    background-color: aliceblue;
+/*    background-color: aliceblue;*/
+    background: #2b3f66;
+    color: #FFFFFF;
     padding: 10px;
+    box-shadow: 1px 1px 10px black;
+    border-radius: 0px;
 }
 
 #events > .container{
@@ -86,6 +102,7 @@ body{
 /*Member Section*/
 #members{
     background-color: #FED08A;
+    box-shadow: 1px 1px 10px black;
 }
 
 .members > div{

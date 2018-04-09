@@ -1,0 +1,63 @@
+body{
+/*    background: #F8F9FA;*/
+    background: #E4E0CD;
+    margin-top: 50px;
+}
+
+.legend-container{
+    padding: 10px;
+    padding-top: 10px;
+    margin: 0;
+    line-height: 18px;
+    position: relative;
+}
+
+.legend-container > ul {
+    position: fixed;
+    width: 220px;
+}
+
+.legend-container > ul > li{
+    margin-bottom: 4px;
+}
+
+/*Legend links*/
+.legend-link{
+    color: #666;
+    text-decoration: none;
+    font-weight: 600;
+}
+.legend-active {
+    color: #191919;
+
+}
+
+
+/*Blog container*/
+.blog-post-container{
+/*    background-color: #FBFBFB;*/
+    color: #393939;
+/*    padding: 35px 30px;*/
+    
+}
+
+.blog-post{
+    padding: 35px 30px;
+    margin-bottom: 25px;
+    border: solid #CBCBCB 1px;
+    border-radius: 3px;
+    background-color: #FBFBFB;
+    box-shadow: 0px 1px 2px -2px black;
+}
+
+
+
+
+
+
+/*Hide Legend on mobile screens*/
+@media only screen and (max-width: 768px) {
+    .legend-container{
+        display: none;
+    }
+}
