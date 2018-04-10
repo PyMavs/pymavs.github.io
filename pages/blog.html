@@ -11,7 +11,9 @@
 </head>
 <body>
     <div class="main-content">
-        <div class="navbar fixed-top navbar-expand-sm navbar-light" 
+        
+        <!--Navigation-->
+        <div class="navbar navbar-expand-sm navbar-light" 
         style="background: #FECB2F;
             border-bottom: solid #D2A82C 2px;">
             
@@ -44,19 +46,19 @@
                     <li class="nav-link">
                         <!--Button-->
                         <a href="https://www.facebook.com/pymavs/">
-                            <img src=".././resc/img/facebookLogo.svg" width="15px" height="15px" style="margin-bottom: 4px"/>
+                            <img src=".././resc/img/facebookLogo.svg" width="20px" height="20px" style="margin-bottom: 4px"/>
                         </a>
                     </li>
                     <li class="nav-link">
                         <!--Button-->
                         <a href="https://www.meetup.com/PyMavs/">
-                            <img src=".././resc/img/meetup.svg" width="15px" height="15px" style="margin-bottom: 4px"/>
+                            <img src=".././resc/img/meetup.svg" width="20px" height="20px" style="margin-bottom: 4px"/>
                         </a>
                     </li>
                     <li class="nav-link">
                         <!--Button-->
                         <a href="https://groupme.com/join_group/39663860/GBqftt">
-                            <img src=".././resc/img/groupmeLogo.svg" width="20px" height="20px" style="margin-bottom: 2px"/>
+                            <img src=".././resc/img/groupmeLogo.svg" width="22px" height="22px" style="margin-bottom: 2px"/>
                         </a>
                     </li>
                 </ul>
@@ -69,15 +71,66 @@
         <br/>
         
         
-        <div class="container-fluid row" >
+        <div class="container-fluid row" id="app">
+            <!--Legend -->
+<!--
             <div class="legend-container col-sm-3">
                 <ul>
-                    <li><a href="#blog-post-1" class="legend-link legend-active">General Body Meeting (date date)</a></li>
+                    <li><a href="#blog-post-0" class="legend-link legend-active">PyMavs Workshop: Python Basics (4/21/18)</a></li>
+                    <li><a href="#blog-post-1" class="legend-link legend-active">General Body Meeting (3/30/18)</a></li>
                     <li><a href="#blog-post-2" class="legend-link">Title</a></li>
                     <li><a href="#blog-post-3" class="legend-link">Title</a></li>
                 </ul>
             </div>
-            <div class="blog-post-container col-sm-12 col-md-9">
+-->
+
+                <!--Navigation Legend-->
+                <div class="legend-container col-sm-3">
+                        <ul >
+                            <li v-for="post in posts">
+                                <a v-bind:href="'#blog-post-'+post.id"class="legend-link">{{post.title}}</a>
+                            </li>
+                        </ul>
+                </div>
+                <!--Content-->
+                <div class="blog-post-container col-sm-12 col-md-9">
+                    <div v-for="post in posts">
+                        <div class="blog-post" v-bind:id="'blog-post-'+post.id">
+                            <h2 class="blog-post-title">{{post.title}}</h2>
+                            <p class="blog-post-info">{{post.subtitle}}</p>
+                            <hr />
+
+                            <div class="blog-post-content" v-html="post.body"></div>
+                            <div class="blog-post-notes" vr-if>
+                                <h4>Notes</h4>
+                                <p>{{post.notes}}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                
+<!--
+                
+                <div class="blog-post" id="blog-post-0">
+                    <h2 class="blog-post-title">PyMavs Workshop: Python Basics (4/21/18)</h2>
+                    <p class="blog-post-info">Learn how to master python!</p>
+                    <hr/>
+
+                    <div class="blog-post-content"> 
+                        <p>
+                            Learn how to use and master the basics of Python.
+                        </p>
+                        <p>    
+                            
+                        </p>
+                        <div class="blog-post-notes">
+                            <h5>Notes</h5>
+                            <p>We will be using Python 3.7</p>
+                            <p>Presented by: Matt H.</p>
+                        </div>
+                    </div>
+                </div>
                 <div class="blog-post" id="blog-post-1">
                     <h2 class="blog-post-title">General body meeting (3/30/18)</h2>
                     <p class="blog-post-info">Agenda</p>
@@ -114,6 +167,10 @@
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dapibus nisl congue mollis interdum. Donec dignissim iaculis ante ut feugiat. Nulla nec semper tortor. Sed quis posuere tellus. Suspendisse quis dapibus odio. Suspendisse faucibus turpis at sollicitudin mollis. Cras consequat leo eget elit semper efficitur. Nulla facilisi. Sed sed ipsum ut dolor pulvinar tincidunt.
                         </p>
+                        <div class="blog-post-notes">
+                            <h5>Notes</h5>
+                            <p>Some notes and stuff and more notes and notes; More notes.</p>
+                        </div>
                     </div>
                 </div>
                 <div class="blog-post" id="blog-post-3">
@@ -124,10 +181,13 @@
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dapibus nisl congue mollis interdum. Donec dignissim iaculis ante ut feugiat. Nulla nec semper tortor. Sed quis posuere tellus. Suspendisse quis dapibus odio. Suspendisse faucibus turpis at sollicitudin mollis. Cras consequat leo eget elit semper efficitur. Nulla facilisi. Sed sed ipsum ut dolor pulvinar tincidunt.
                         </p>
+                        <div class="blog-post-notes">
+                            <h5>Notes</h5>
+                            <p>Some notes and stuff and more notes and notes; More notes.</p>
+                        </div>
                     </div>
                 </div>
-                
-                
+-->
             </div>
             
         </div>
@@ -140,10 +200,22 @@
 -->
           
     </div>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    
+<!--    <script type="text/javascript" src="../blog.json"></script>-->
+<!--    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>-->
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 
     <script src="../resc/bootstrap/bootstrap.min.js"></script>
-    <script src="../index.js"></script>
+    
+    <!-- development version, includes helpful console warnings -->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <!-- production version, optimized for size and speed -->
+    <!--<script src="https://cdn.jsdelivr.net/npm/vue"></script>-->
+
+    <script src="../pages/blog.js"></script>
 </body>
 </html>

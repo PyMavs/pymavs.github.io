@@ -1,5 +1,6 @@
 body{
     font-family: 'Source Sans Pro', sans-serif;
+    
 }
 
 /*Bootstrap Cleanup*/
@@ -20,6 +21,10 @@ body{
 
 .navbar{
     box-shadow: 1px 0px 5px black;
+}
+.nav-link a{
+    padding: 20px 3px;
+    margin:0px;
 }
 
 .title{

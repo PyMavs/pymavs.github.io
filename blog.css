@@ -1,7 +1,6 @@
 body{
-/*    background: #F8F9FA;*/
     background: #E4E0CD;
-    margin-top: 50px;
+    margin: 0px;
 }
 
 .legend-container{
@@ -14,7 +13,7 @@ body{
 
 .legend-container > ul {
     position: fixed;
-    width: 220px;
+    width: 210px;
 }
 
 .legend-container > ul > li{
@@ -51,7 +50,10 @@ body{
 }
 
 
-
+.blog-post-notes *{
+	padding: 0;
+    margin: 0;
+}
 
 
 
