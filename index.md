@@ -1,7 +1,14 @@
 ## General Body Meeting (4/20/18)
 
 ### Agenda
-Coming Soon
+1. Welcome
+2. Volunteers
+3. Summer Bootcamp - Python 101
+4. Public mailing list - [http://eepurl.com/dqDap5](http://eepurl.com/dqDap5)
+5. Meetup - DFW Pythoneers Social Only Meetup - Thursday, April 26, 2018 (7:00 PM to 10:00 PM)
+6. EarthxHack
+7. [https://www.redox-os.org](Redox Summer of Code)
+8. Q & A
 
 
 ## General body meeting (3/30/18)
