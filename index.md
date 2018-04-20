@@ -7,8 +7,8 @@
 4. Public mailing list - [http://eepurl.com/dqDap5](http://eepurl.com/dqDap5)
 5. Meetup - DFW Pythoneers Social Only Meetup - Thursday, April 26, 2018 (7:00 PM to 10:00 PM)
 6. EarthxHack
-7. [https://www.redox-os.org](Redox Summer of Code)
-9. [https://apply.hackny.org/](hackNY Fellows)
+7. [Redox Summer of Code](https://www.redox-os.org)
+9. [hackNY Fellows](https://apply.hackny.org/)
 8. Q & A
 
 
