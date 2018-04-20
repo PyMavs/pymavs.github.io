@@ -8,8 +8,9 @@
 5. Meetup - DFW Pythoneers Social Only Meetup - Thursday, April 26, 2018 (7:00 PM to 10:00 PM)
 6. EarthxHack
 7. [Redox Summer of Code](https://www.redox-os.org)
-9. [hackNY Fellows](https://apply.hackny.org/)
-8. Q & A
+8. [hackNY Fellows](https://apply.hackny.org/)
+9. Group projects
+10. Q & A
 
 
 ## General body meeting (3/30/18)
