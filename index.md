@@ -12,6 +12,16 @@
 9. Group projects
 10. Q & A
 
+## DFW Pythoneers Meetup (4/5/18)
+
+### Recap
+
+On Thursday, April 5, five of us met up outside the University Center and carpooled to Plano, where the gathering was hosted by a company named Improving.
+
+For about the first hour, Randall W. led the introductory hour going over the basic syntax and data types.  Then after an intensive follow up by Kevin Horn, we were excited to see a fellow Maverick and UTA alumni, Ayaz Amlani, as the last speaker covering a lot of material including Virtual Envs, Django, and Jinja.  
+
+Around 30 in attendance, the attendees ranged in their experience with Python and programming in general, from beginner enthusiasts to seasoned professionals.  There is a lot of opportunity to learn and network if we decide to visit again.
+
 
 ## General body meeting (3/30/18)
 
