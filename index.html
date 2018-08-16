@@ -1,214 +1,105 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="resc/bootstrap/bootstrap.css"/>
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Exo" rel="stylesheet">
     <link rel="stylesheet" href="index.css"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
 </head>
 <body>
     <div class="main-content">
-        <div class="navbar navbar-expand-sm navbar-dark" 
-             style="background: #1A253B;
-                    border-bottom: solid #2b3f66 1px;
-                    ">
-            
-            <a class="navbar-brand" href="#home">
-                <img src="../resc/img/pymavslogo.png" width="30" height="30"/>
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./pages/blog.html">Blog</a>
-                    </li>
-                </ul>
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-link">
-                        <!--MailTo-->
-                        <a>pymavs@gmail.com</a>
-                    </li>
-                    <li class="nav-link">
-                        <!--Button-->
-                        <a href="https://www.facebook.com/pymavs/">
-                            <img src="./resc/img/facebookLogo.svg" width="20px" height="20px" style="margin-bottom: 4px"/>
-                        </a>
-                    </li>
-                    <li class="nav-link">
-                        <!--Button-->
-                        <a href="https://www.meetup.com/PyMavs/">
-                            <img src="./resc/img/meetup.svg" width="20px" height="20px" style="margin-bottom: 4px"/>
-                        </a>
-                    </li>
-                    <li class="nav-link">
-                        <!--Button-->
-                        <a href="https://groupme.com/join_group/39663860/GBqftt">
-                            <img src="./resc/img/groupmeLogo.svg" width="22px" height="22px" style="margin-bottom: 2px"/>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        
-        <div class="container-fluid landing d-flex" id="home">
-            
-            <div class="landing-info row justify-content-center align-self-center flex-column mx-auto">
-                <h2 class="mx-auto">Welcome to PyMavs!</h2>
-                <p class="mx-auto">Python user group at UT Arlington</p>
 
-                <div class="groupme-container mx-auto">
-                    
-                    <a class="btn btn-light" href="https://groupme.com/join_group/39663860/GBqftt">
-                        <img src="./resc/img/groupmeLogo.svg" width="20px" height="20px" style="margin-right: 5px;"/> GroupMe
-                    </a>
+        <div class="body">
+            <div class="container">
+                <h3 class="title"><span class="txt-blue">def</span> <span class="txt-green">About( )</span>:</h3>
+                <div class="text">
+                    <p>Welcome to <span class="txt-yellow">Pymavs</span></p>
+                    <p>PyMavs is a Python focused organization at UTA. We pride ourselves in developing each other in become better engineers.</p>
+                    <p>Join us! Whether you are new to coding or have been coding since </p>
                     
                 </div>
             </div>
-            
-            <!--  @TODO: Pull Next Meeting from a JSON file. 
-                         Only render next meeting if JSON file has data
-            -->
-            
-            
-            
-        </div>
-        <div class="jumbotron" id="events">
-            <div class="container text-center" >
-                <h2 class="title">Upcoming Events</h2>
-                <div class="d-flex justify-content-center flex-wrap">
-                    <div>
-                        <div class="meeting-container "> 
-                            <h5 class="meeting-title">Next Meeting</h5>
-                            <p class="meeting-label">General Body Meeting</p>
-                            <p class="meeting-date">March 29, 18</p>
-                            <small class="meeting-location">ERB, Room 301</small>
+            <div class="container">
+                <h3 class="title"><span class="txt-blue">def</span> <span class="txt-green">Members( )</span>:</h3>
+                <div class="members">
+                    <div class="member">
+                        <div class="member-image"></div>
+                        <div class="member-llist-container">
+                            <div class="member-llist">
+                                <div class="member-info">Matt</div>
+                                <div class="member-box"></div>
+                                <div class="member-arrow"></div>
+                            </div>
+                            <div class="member-llist">
+                                <div class="member-info">Vice President</div>
+                                <div class="member-box"></div>
+                                <div class="member-arrow"></div>
+                            </div>
+                            <div class="member-llist">
+                                <div class="member-info">Soy Bro</div>
+                                <div class="member-box"></div>
+                            </div>
                         </div>
                     </div>
-                    <div >
-                        <div class="meeting-container "> 
-                            <h5 class="meeting-title">School Workshop</h5>
-                            <a href="#" class="meeting-label">Intro to Git & Github</a>
-                            <p class="meeting-date">March 29, 18</p>
-                            <small class="meeting-location">Central Library, Room 315A</small>
+                    <div class="member">
+                        <div class="member-image"></div>
+                        <div class="member-llist-container">
+                            <div class="member-llist">
+                                <div class="member-info">Matt</div>
+                                <div class="member-box"></div>
+                                <div class="member-arrow"></div>
+                            </div>
+                            <div class="member-llist">
+                                <div class="member-info">Vice President</div>
+                                <div class="member-box"></div>
+                                <div class="member-arrow"></div>
+                            </div>
+                            <div class="member-llist">
+                                <div class="member-info">Soy Bro</div>
+                                <div class="member-box"></div>
+                            </div>
                         </div>
                     </div>
-                    <div >
-                        <div class="meeting-container "> 
-                            <h5 class="meeting-title">PyMavs Workshop</h5>
-                            <p class="meeting-label">Learn the basics of Python 3</p>
-                            <p class="meeting-date">April 20, 18</p>
-                            <small class="meeting-location">ERB, Room 301</small>
+                    <div class="member">
+                        <div class="member-image"></div>
+                        <div class="member-llist-container">
+                            <div class="member-llist">
+                                <div class="member-info">Matt</div>
+                                <div class="member-box"></div>
+                                <div class="member-arrow"></div>
+                            </div>
+                            <div class="member-llist">
+                                <div class="member-info">Vice President</div>
+                                <div class="member-box"></div>
+                                <div class="member-arrow"></div>
+                            </div>
+                            <div class="member-llist">
+                                <div class="member-info">Soy Bro</div>
+                                <div class="member-box"></div>
+                            </div>
                         </div>
+                        
                     </div>
-                </div> 
-            </div>
-        </div>
-        
-        <div class="container text-center" id="about">
-            <h2 class="title">About us</h2>
-            <p> 
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dapibus nisl congue mollis interdum. Donec dignissim iaculis ante ut feugiat. Nulla nec semper tortor. Sed quis posuere tellus. Suspendisse quis dapibus odio. Suspendisse faucibus turpis at sollicitudin mollis. Cras consequat leo eget elit semper efficitur. Nulla facilisi. Sed sed ipsum ut dolor pulvinar tincidunt.
-            </p>
-        </div>
-        
-        <div class="container-fluid text-center" id="members">
-            <h2 class="title">Members</h2>
-            <div class="row members">
-                <div class="col-sm-4"> 
-                    <div class="member-image-container">
-                        <img class="member-image" src="https://i.imgur.com/1lMGoLq.jpg"/>
-                    </div>
-                    <p class="member-name">Name</p>
-                    <p class="member-title">VP</p>
-                </div>
-                <div class="col-sm-4"> 
-                    <div class="member-image-container">
-                        <img class="member-image" src="https://i.pinimg.com/236x/8e/5f/06/8e5f0658ce0037df128de1fb096d62ef--funny-lizards-animal-pics.jpg"/>
-                    </div>
-                    <p class="member-name">Name</p>
-                    <p class="member-title">VP</p>
-                </div>
-                <div class="col-sm-4"> 
-                    <div class="member-image-container">
-                        <img class="member-image" src="https://thoughtcatalog.files.wordpress.com/2012/10/business-cat.jpg?w=584&h=584"/>
-                    </div>
-                    <p class="member-name">Name</p>
-                    <p class="member-title">VP</p>
                 </div>
             </div>
-        </div>
-        
-        <div class="container" id="contact">
-            <h2 class="title text-center">Join Our Mailing List</h2>
-            
-            <!-- @TODO: Write Javascript to 
-                            1: validate content
-                            2: Disable button, until valid content
-                            3: Stop user from sending too many requests 
-            -->
-            
-            <!-- Begin MailChimp Signup Form -->
-            <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
-            <style type="text/css">
-                #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
-                /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
-                   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-            </style>
-            <div id="mc_embed_signup">
-            <form action="https://github.us18.list-manage.com/subscribe/post?u=ca60262c67543f2faeb7f0fc8&amp;id=cb9f43de90" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-                <div id="mc_embed_signup_scroll">
-                <label for="mce-EMAIL">Subscribe to our mailing list</label>
-                <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
-                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_ca60262c67543f2faeb7f0fc8_cb9f43de90" tabindex="-1" value=""></div>
-                <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
-                </div>
-            </form>
-            </div>
+            <div class="container">
+                <h3 class="title"><span class="txt-blue">def</span> <span class="txt-green">Contact_Us( )</span>:</h3>
+                <div class="text">
+                    <p><span class="txt-yellow">Contact</span> = {</p>
+                    <p class="tab">"Email": <a href="#">"Pymavs@UTA.com"</a></p>
+                    <p class="tab">"Room": "ERB-123"</p>
+                    <p>}</p>
+                    <p><span class="txt-red">return </span>Contact</p>
 
-            <!--End mc_embed_signup-->
-<!--
-            <form >
-                <div class="row">
-                    <div class="form-group col-md-6">
-                        <label for="fnameInput">First Name</label>
-                        <input class="form-control" type="text" name="fnameInput" id="fnameInput"/>
-                    </div>
-                    <div class="form-group col-md-6">
-                        <label for="lnameInput">Last Name</label>
-                        <input class="form-control" type="text" name="lname" id="lnameInput"/>
-                    </div>
                 </div>
-                <div class="form-group">
-                    <label for="emailInput">Mavs Email</label>
-                    <input class="form-control" type="email" name="emailInput" id="emailInput"/>
-                </div>
-                <button type="submit" class="btn btn-primary offset-sm-10 col-sm-2">Submit</button>
-            </form>
--->
-        </div>
+            </div>
+        </div> 
         
         <footer>
             <small>Page Created by Ivan Jaimes</small>
         </footer>
           
     </div>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-
-    <script src="resc/bootstrap/bootstrap.min.js"></script>
-    <script src="index.js"></script>
+   <script src="index.js"></script>
 </body>
 </html>

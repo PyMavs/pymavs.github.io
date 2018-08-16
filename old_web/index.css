@@ -1,0 +1,152 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+
+/*Bootstrap Cleanup*/
+.container{
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.container-fluid {
+    padding-top: 20px;
+    padding-bottom: 50px;
+   
+}
+.jumbotron {
+	padding: 0px;
+    margin: 0px;
+}
+
+.navbar{
+    box-shadow: 1px 0px 5px black;
+}
+.nav-link a{
+    padding: 20px 3px;
+    margin:0px;
+}
+
+.title{
+    padding: 5px 0px;
+}
+
+.landing{
+    background: #4172B0;
+    /*For Image*/
+/*
+    background-image: url('./resc/img/live.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: bottom;
+    opacity: .90;
+*/
+    color: #F3F3F3;
+    padding-bottom: 80px;
+    /* Change height on mobile later   */
+    height: 450px; 
+}
+
+
+.landing-info > h2{
+    margin-bottom: 5px;
+    text-shadow: 1px 1px 5px black;
+}
+.landing-info > p{
+	color: #D8D8D8;
+    margin-bottom: 35px;
+    text-shadow: 1px 1px black;
+    
+}
+.groupme-container{
+    border-radius: 5px;
+    box-shadow: 0px 1px 5px black;
+}
+
+
+#events{
+/*    background-color: aliceblue;*/
+    background: #2b3f66;
+    color: #FFFFFF;
+    padding: 10px;
+    box-shadow: 1px 1px 10px black;
+    border-radius: 0px;
+}
+
+#events > .container{
+    padding: 10px;
+}
+
+
+.meeting-container {
+    background-color: white;
+    border: solid black 2px;
+    border-radius: 5px;
+    min-width: 250px;
+    padding: 10px 10px;
+    margin: 25px 15px;
+    color: black;
+    text-align: left;
+}
+.meeting-container > p{
+    margin-bottom: 0px;
+}
+.meeting-label{
+    
+}
+.meeting-title{
+
+}
+.meeting-location{
+    
+}
+.meeting-date{
+
+}
+
+/*Member Section*/
+#members{
+    background-color: #FED08A;
+    box-shadow: 1px 1px 10px black;
+}
+
+.members > div{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.member-image-container{
+    display: flex;
+    justify-content: center;
+}
+.member-image{
+    width: 125px;
+    height: 125px;
+    background-color: gray;
+    border-radius: 100%;
+    overflow: hidden;
+}
+.member-name{
+    margin: 0;
+    margin-top: 10px;
+    padding: 0;
+    
+}
+
+.member-title{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+/*Footer Section*/
+footer{
+    background-color: dimgray;
+    color:darkgray;
+    padding: 10px;
+    height: 40px;
+}
