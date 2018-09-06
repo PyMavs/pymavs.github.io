@@ -1,7 +1,11 @@
+
+
 body{
     font-family: 'Exo', sans-serif;
-    
+    padding: 0px;
+    margin: 0px;
 }
+
 
 
 /*Main Body Section*/
@@ -14,20 +18,35 @@ body{
 .container{
     width: 80%;
     padding: 10px;
+    margin-top: 60px;
     margin-bottom: 40px;
 } 
+
 .main-header{
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
-    margin-bottom: 40px;
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    width: 100%;
+    color: #f2f2f2;
+    background-color: black;
 }
 
-/* EVENT SECTION*/
+/* Parallax Container */
+.p-container{
+    align-self: flex-end;
+    width: 40vw; height: 30vh;
+    padding: 10px;
+    background-color: red; 
+}
 
+
+
+/* EVENT SECTION*/
 .events{
-/*    background-color: antiquewhite;*/
-/*    padding: 0px;*/
     padding: 0px 40px;;
     margin: 0px;
 }
