@@ -1,3 +1,15 @@
+## General Body Meeting (9/07/18)
+
+### Agenda
+1. Welcome
+2. What we have planned this year
+3. How to get the most out of PyMavs
+4. Why you should join us
+5. How to become a member
+6. Elect a treasurer
+7. Q & A
+8. "Networking" ;)
+
 ## General Body Meeting (4/20/18)
 
 ### Agenda
