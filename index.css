@@ -4,6 +4,7 @@ body{
     font-family: 'Exo', sans-serif;
     padding: 0px;
     margin: 0px;
+   
 }
 
 
@@ -13,14 +14,24 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    /* background-color: white; */
+    background-color: #1a2e4e;
+
+}
+.body > div{
+    background-color: white;
 }
 
 .container{
     width: 80%;
-    padding: 10px;
-    margin-top: 60px;
-    margin-bottom: 40px;
+    padding: 40px 30px 40px;
+    /* margin-top: 60px;
+    margin-bottom: 40px; */
 } 
+
+.title{
+    margin-bottom: 30px;
+}
 
 .main-header{
     display: flex;
@@ -32,8 +43,23 @@ body{
     height: 100vh;
     width: 100%;
     color: #f2f2f2;
-    background-color: black;
+    /* background-color: #14233B; */
+    background-image: linear-gradient(#14233B, #14233B, #14233B, #14233B, #14233B,  #14233B, #1a2e4e);
 }
+.banner-image{
+    width: 90%;
+    height: 200px;
+    /* border-bottom: solid #213A61 2px; */
+    /* border-right: solid #213A61 2px; */
+    background: url("./resc/img/pymavsbanner.png") no-repeat center;
+    background-size: contain;
+}
+
+.logo-txt{
+    color: #345c9a ;
+    font-weight: bold;
+}
+
 
 /* Parallax Container */
 .p-container{
@@ -41,6 +67,49 @@ body{
     width: 40vw; height: 30vh;
     padding: 10px;
     background-color: red; 
+}
+
+/* ABOUT SECTION */
+
+
+/* --- images --- */
+.club-image-container{
+    margin-top: 50px;
+    width: 100%;
+    /* border: solid red 2px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.club-image{
+    margin: 2px;
+    border: solid #efefef 2px;
+}
+
+#club-image-1{
+    background: url("./resc/img/live2.jpg") no-repeat center;
+    background-size: cover;
+    height: 200px;
+    min-width: 375px;
+
+}
+
+#club-image-2{
+    background: url("./resc/img/live.jpg") no-repeat center;
+    background-size: cover;
+    height: 250px;
+    min-width: 375px;
+
+}
+
+#club-image-3{
+    background: url("./resc/img/live3.jpg") no-repeat center;
+    background-size: cover;
+    height: 200px;
+    min-width: 375px;
+
 }
 
 
@@ -159,8 +228,11 @@ body{
 
 /*Footer Section*/
 footer{
-    background-color: dimgray;
+    padding-left: 40px;
+    background-color: #1a2e4e;
     color:darkgray;
-    padding: 10px;
     height: 20px;
+}
+footer > small {
+    padding-left: 10px;
 }
