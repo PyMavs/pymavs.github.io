@@ -1,0 +1,46 @@
+.pycon {
+    height: 100%;
+    width: 100%;
+}
+
+.header {
+    color: white;
+    font-size: 1000%;
+    font-family: 'Ubuntu'
+}
+
+body, .container, .jumbotron {
+    background-color: #001122;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100%;
+}
+
+/* Code Like */
+
+.codebody {
+    padding-left: 8%;
+}
+
+.arg {
+    color: black;
+}
+
+.def, .class {
+    color: red;
+}
+
+.string, .astring {
+    color: green;
+}
+
+.var {
+    color: magenta;
+}
+
+.defname {
+    color: blue;
+}
+
+.comment {
+    color: #919aa1;
+}
