@@ -1,21 +1,24 @@
 # pymavs.github.io
+
 Python user group at UT Arlington
 
 Live page: Master Branch  
 Developer page: Dev Branch
 
 ## Notes for Development
+
 Development page is being worked out on the 'Dev' branch.
-Blog posts data is in /blog.js. To add more add an object to the posts[] array.
+
+Add blog posts, video posts, event posts to the respective .js files in ./data like the templates. Use JSX instead of strings if you want.
+
+Because of ReactJS, you'll need to create a local server to perview the website while working.
 
 #### Frameworks being used
-  - HTML
-  - CSS
-  - Javascript
-  - Vue Js (Blog portion of page)
-  - JQuery
-  - Bootstrap
-  
+- ReactJS
+- JQuery
+- Bootstrap
 
-Use [Brackets IDE](http://brackets.io/). It will auto refresh page on html/css/js changes!
-
+Great opensource tools for development:
+- [Brackets IDE](http://brackets.io/)
+- [VS Code](https://code.visualstudio.com)
+- [Atom](https://atom.io)
