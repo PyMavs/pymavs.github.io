@@ -9,11 +9,16 @@
     font-family: 'Ubuntu'
 }
 
-body, .container, .jumbotron {
+body {
     background-color: #001122;
     font-family: 'Courier New', Courier, monospace;
     font-size: 100%;
-}
+    background-size: 40px 40px, 40px 40px;
+    background-image:
+    repeating-linear-gradient(45deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3) 1px, transparent 1px, transparent 57px),
+    repeating-linear-gradient(135deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3) 1px, transparent 1px, transparent 57px);
+    color: yellow;
+  }
 
 .content {
     padding-left: 15%;
@@ -26,7 +31,7 @@ body, .container, .jumbotron {
     background-color: white;
     text-align: center;
     border: 2px solid #00000000;
-    color: black;
+    color: #001122;
 }
 
 .thumb { 
@@ -37,7 +42,7 @@ body, .container, .jumbotron {
 }
 
 div.card {
-    color: black;
+    color: #001122;
 }
 
 div.card:hover {
@@ -93,7 +98,7 @@ div.terminal:hover {
 }
 
 .terminal {
-    background-color: #001122;
+    background-color: #00000000;
     padding: 2%;
     color: white;
     border: 2px solid #ffffff;
