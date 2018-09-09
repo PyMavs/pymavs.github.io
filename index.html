@@ -11,36 +11,57 @@
     <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
     <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
     <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+    <!-- <script src="scripts/react.development.js"></script>
+    <script src="scripts/react-dom.development.js"></script>
+    <script src="scripts/babel.min.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 
-    <script type="text/babel" src="src/events.js"></script>
+
+    <script type="text/babel" src="data/blog.js"></script>
+    <script type="text/babel" src="data/vids.js"></script>
+    <script type="text/babel" src="data/events.js"></script>
     <script type="text/babel" src="src/body.js"></script>
+    <script type="text/babel" src="src/nav.js"></script>
+
     <link rel="stylesheet" href="styles/style.css">
 </head>
 
 <body>
-    <div class="container">
-        <div class="jumbotron">
+    <div>
+        <div class="content">
             <div class="row">
-                <div class="col-lg-1">
+                <div class="col-lg-3">
                     <!-- Blank -->
                 </div>
-                <div class="col-lg-3">
+                <div class="col-lg-2">
                     <img src="img/pythonicon.png" alt="pythonicon" class="pycon" />
                 </div>
-                <div class="col-lg-1">
-                    <!-- Blank -->
-                </div>
-                <div class="col-lg-6">
+                <div class="col-lg-4">
                     <span class="header">PyMavs</span>
                 </div>
-                <div class="col-lg-1">
+                <div class="col-lg-3">
                     <!-- Blank -->
                 </div>
             </div>
 
-            <br><br><br><br>
-            <!-- Rest of the Body -->
+            <br><br>
+
             <div class="row">
+                <div class="col-lg-2"></div>
+                <div class="col-lg-2 card-header hhome">cat home.py</div>
+                <div class="col-lg-2 card-header habout">about.py</div>
+                <div class="col-lg-2 card-header hpython">python_101.py</div>
+                <div class="col-lg-2 card-header hblog">blog.py</div>
+                <div class="col-lg-2"></div>
+            </div>
+
+            <br><br>
+            <!-- Rest of the Body -->
+            <div class="row" id="home">
 
                 <!-- Events -->
                 <div class="col-lg-7 events">
@@ -55,13 +76,16 @@
                             <span class="class">class</span> <span class="defname">Contact_Us</span>:
                             <div class="codebody">
                                 <span class="var">Contact</span> = {<br>
-                                    <div class="codebody">
-                                            <span class="string">"Email"</span>: <span class="string"><a href="mailto:pymavs@uta.edu" class="astring"><u>"pymavs@uta.edu"</u></a></span><br>
-                                            <span class="string">"Room"</span>: <span class="string">"ERB 132"</span><br>
-                                            <span class="string">"Mailing-List</span>: <span class="string"><a href="https://github.us18.list-manage.com/subscribe?u=ca60262c67543f2faeb7f0fc8&id=cb9f43de90" class="astring"><u>"MailList"</u></a></span><br>
-                                    </div>
+                                <div class="codebody">
+                                    <span class="string">"Email"</span>: <span class="string"><a href="mailto:pymavs@uta.edu"
+                                            class="astring"><u>"pymavs@uta.edu"</u></a></span><br>
+                                    <span class="string">"Room"</span>: <span class="string">"ERB 132"</span><br>
+                                    <span class="string">"Mailing-List</span>: <span class="string"><a href="https://github.us18.list-manage.com/subscribe?u=ca60262c67543f2faeb7f0fc8&id=cb9f43de90"
+                                            class="astring"><u>"MailList"</u></a></span><br>
+                                </div>
                                 } <br><br>
-                                <a href="https://www.facebook.com/pymavs/"><span class="comment"><i># <u>facebook</i></u></span></a>
+                                <a href="https://www.facebook.com/pymavs/" target="_blank"><span class="comment"><i># <u>facebook</i></u></span></a><br>
+                                <a href="img/GroupMeTag.pdf" target="_blank"><span class="comment"><i># <u>groupme</i></u></span></a><br>
                             </div>
                         </div>
                     </div>
@@ -70,13 +94,73 @@
 
                     <!-- About -->
                     <div class="card">
-                        <div class="card-body about-part">
-                                <span class="def">def</span> <span class="defname">about</span>():<br><br>
-                                <div class="codebody">
-                                        <span class="defname">print</span> <span class="string">Hey Pythonisons!</span><br><br>
-                                        <span class="comment"><i># PyMavs is a new organization at the University of Texas at Arlington that focuses primary in 
-                                        Python. We pride ourselves in developing each other as better python programmers.</i></span>
-                                </div>
+                        <div class="card-body" id="about-part">
+                            <span class="def">def</span> <span class="defname">about</span>():<br>
+                            <div class="codebody">
+                                <span class="comment"><i>
+                                        """
+                                        <div class="codebody">
+                                            PyMavs is a new organization at the University of Texas at Arlington that focuses primary in Python. We pride ourselves in
+                                            developing each other as better python programmers.
+                                        </div>
+                                        """
+                                    </i>
+                                </span><br>
+                                <a href="https://www.python.org" class="defname" target="_blank"><u>get_started_here</u></a>()
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row nav" id="blogs">
+                <div class="col-lg-12">
+                    <div class="card terminal">
+                            <span class="shell">python blog.py</span>
+                    </div>
+                    <br>
+                    <div id="blog"></div>
+                </div>
+            </div>
+
+            <div class="row nav" id="vids">
+                <div class="col-lg-12">
+                    <div class="card terminal">
+                            <span class="shell">python python_101.py</span>
+                    </div>
+                    <br>
+                    <div id="pyone"></div>
+                </div>
+            </div>
+
+            <div class="row nav" id="about">
+                <div class="col-lg-12">
+                    <div class="card terminal">
+                        <span class="shell">python about.py</span>
+                    </div>
+                    <br>
+                    <div class="card">
+                        <div class="card-body">
+                            Hey Pythonistas!</span><br><br>
+                            <p>PyMavs is a new organization at the University of Texas at Arlington that focuses primary
+                                in Python. We pride ourselves in developing each other as better python programmers.</p>
+                            <p>Get the latest news by joining our <a href="https://github.us18.list-manage.com/subscribe?u=ca60262c67543f2faeb7f0fc8&id=cb9f43de90" target="_blank"><u>MailingList</u></a>!
+                                </p>
+                            <p>Get involved whether you are new to coding or have been coding since you were 5.</p>
+                            <br><br>
+                            <div class="row">
+                                <div class="col-lg-4"><img src="img/live.jpg" alt="image 1" class="thumb"></div>
+                                <div class="col-lg-4"><img src="img/live2.jpg" alt="image 2" class="thumb"></div>
+                                <div class="col-lg-4"><img src="img/live3.jpg" alt="image 3" class="thumb"></div>
+                            </div>
+
+                            <p>Contact:
+                                <a href="https://www.facebook.com/pymavs/" target="_blank"><u>facebook</u></a>
+                                <a href="img/GroupMeTag.pdf" target="_blank"><u>groupme</u></a>
+                                <a href="mailto:pymavs@uta.edu" target="_blank"><u>email</u></a>
+                                <a href="https://github.us18.list-manage.com/subscribe?u=ca60262c67543f2faeb7f0fc8&id=cb9f43de90" target="_blank"><u>mailing-list</u></a>
+                            </p>
+
                         </div>
                     </div>
                 </div>
