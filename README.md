@@ -11,7 +11,7 @@ Development page is being worked out on the 'Dev' branch.
 
 Add blog posts, video posts, event posts to the respective .js files in ./data like the templates. Use JSX instead of strings if you want.
 
-Because of ReactJS, you'll need to create a local server to perview the website during work.
+Because of ReactJS, you'll need to create a local server to perview the website while working.
 
 #### Frameworks being used
 - ReactJS
