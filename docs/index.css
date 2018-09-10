@@ -1,0 +1,238 @@
+
+
+body{
+    font-family: 'Exo', sans-serif;
+    padding: 0px;
+    margin: 0px;
+   
+}
+
+
+
+/*Main Body Section*/
+.body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: white; */
+    background-color: #1a2e4e;
+
+}
+.body > div{
+    background-color: white;
+}
+
+.container{
+    width: 80%;
+    padding: 40px 30px 40px;
+    /* margin-top: 60px;
+    margin-bottom: 40px; */
+} 
+
+.title{
+    margin-bottom: 30px;
+}
+
+.main-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    width: 100%;
+    color: #f2f2f2;
+    /* background-color: #14233B; */
+    background-image: linear-gradient(#14233B, #14233B, #14233B, #14233B, #14233B,  #14233B, #1a2e4e);
+}
+.banner-image{
+    width: 90%;
+    height: 200px;
+    /* border-bottom: solid #213A61 2px; */
+    /* border-right: solid #213A61 2px; */
+    background: url("./resc/img/pymavsbanner.png") no-repeat center;
+    background-size: contain;
+}
+
+.logo-txt{
+    color: #345c9a ;
+    font-weight: bold;
+}
+
+
+/* Parallax Container */
+.p-container{
+    align-self: flex-end;
+    width: 40vw; height: 30vh;
+    padding: 10px;
+    background-color: red; 
+}
+
+/* ABOUT SECTION */
+
+
+/* --- images --- */
+.club-image-container{
+    margin-top: 50px;
+    width: 100%;
+    /* border: solid red 2px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.club-image{
+    margin: 2px;
+    border: solid #efefef 2px;
+}
+
+#club-image-1{
+    background: url("./resc/img/live2.jpg") no-repeat center;
+    background-size: cover;
+    height: 200px;
+    min-width: 375px;
+
+}
+
+#club-image-2{
+    background: url("./resc/img/live.jpg") no-repeat center;
+    background-size: cover;
+    height: 250px;
+    min-width: 375px;
+
+}
+
+#club-image-3{
+    background: url("./resc/img/live3.jpg") no-repeat center;
+    background-size: cover;
+    height: 200px;
+    min-width: 375px;
+
+}
+
+
+
+/* EVENT SECTION*/
+.events{
+    padding: 0px 40px;;
+    margin: 0px;
+}
+.event{
+    padding: 0px;
+    margin: 0px;
+}
+.event-title{
+    background-color: #5C5C70;
+    color: #D4D4D4;
+    padding: 10px;
+    margin: 0px;
+}
+.event-content {
+    background-color: #F1F1F1;
+    padding: 10px;
+    padding-left: 40px;
+    
+}
+.event-content > p{
+	padding: 0px;
+    margin: 0px;
+}
+
+/* MEMBER SECTION */
+.members{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+.member{
+    padding: 25px 20px;
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    flex-wrap: wrap;
+
+}
+.member-image{
+    width: 100px;
+    height: 100px;
+    margin: 5px 20px;
+    background-color: red;
+}
+
+.member-llist-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.member-llist{
+    display: flex;
+    margin: 10px 0px 5px 20px;
+
+    
+}
+.member-info{
+    border: solid black 2px;
+    padding: 0px 15px;
+    margin: 0px;
+    height: 40px;
+}
+.member-box{
+    padding-left: 0px;
+    margin-left: -2px;
+    width: 10px;
+    height: 40px;
+    border: solid black 2px;
+}
+
+
+
+.member-info{
+    padding: 10px;
+    display: flex;
+}
+
+
+.form-container{
+    padding: 40px;
+    /* display: flex; */
+}
+#mc_embed_signup_scroll{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.text{
+   padding: 0 50px;
+}
+
+.key{
+    font-weight: bold;
+    color: #B33732;;
+  }
+
+.tab{padding-left: 40px;}
+
+.bold{font-weight: bold;}
+.txt-red {color: #F82648;}
+.txt-green {color: #158A88;}
+.txt-blue{color: #52A5AB;}
+.txt-yellow{color: #D8A621}
+
+
+
+
+/*Footer Section*/
+footer{
+    padding-left: 40px;
+    background-color: #1a2e4e;
+    color:darkgray;
+    height: 20px;
+}
+footer > small {
+    padding-left: 10px;
+}
