@@ -41,6 +41,16 @@ body {
     height: 70%;
 }
 
+.imgOff {
+    object-fit: cover;
+    width: 80%;
+    height: 80%;
+}
+
+.name, .pos {
+    text-align: center;
+}
+
 div.card {
     color: #001122;
 }
