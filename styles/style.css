@@ -47,6 +47,11 @@ body {
     height: 80%;
 }
 
+.imgOff:hover {
+    width: 90%;
+    height: 90%;
+}
+
 .name, .pos {
     text-align: center;
 }
@@ -56,9 +61,9 @@ div.card {
 }
 
 div.card:hover {
-    -webkit-transform: scale(1.035);
-    -ms-transform: scale(1.035);
-    transform: scale(1.035);
+    -webkit-transform: scale(1.009);
+    -ms-transform: scale(1.009);
+    transform: scale(1.009);
 }
 
 div.terminal:hover {
