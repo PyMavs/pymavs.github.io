@@ -7,7 +7,37 @@ body{
    
 }
 
+/* NAVBAR SECTION */
+nav{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    min-width: 800px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
 
+nav a{
+    display: flex;
+    width: 100%;
+    height: 45px;
+    justify-content: center;
+    align-items: center;
+    border: solid white 2px;
+    color: white;
+    background-color: #1a2e4e;
+    text-decoration: none;
+}
+.active{
+    color: black;
+    background-color: white;
+    border: solid white 2px;
+    font-weight: bolder;
+}
+
+
+/* END NAVBAR */
 
 /*Main Body Section*/
 .body{
@@ -19,18 +49,23 @@ body{
 
 }
 .body > div{
-    background-color: white;
+    /* background-color: white; */
 }
 
 .container{
     width: 80%;
-    padding: 40px 30px 40px;
+    padding: 40px 0px 0px;
     /* margin-top: 60px;
     margin-bottom: 40px; */
 } 
 
+.content{
+    background-color: white;
+    padding: 20px 30px 40px;
+}
+
 .title{
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .main-header{
@@ -40,7 +75,7 @@ body{
     flex-direction: column;
     margin: 0px;
     padding: 0px;
-    height: 100vh;
+    height: 15em;
     width: 100%;
     color: #f2f2f2;
     /* background-color: #14233B; */
@@ -92,7 +127,7 @@ body{
     background: url("./resc/img/live2.jpg") no-repeat center;
     background-size: cover;
     height: 200px;
-    min-width: 375px;
+    min-width: 300px;
 
 }
 
@@ -100,7 +135,7 @@ body{
     background: url("./resc/img/live.jpg") no-repeat center;
     background-size: cover;
     height: 250px;
-    min-width: 375px;
+    min-width: 300px;
 
 }
 
@@ -108,7 +143,7 @@ body{
     background: url("./resc/img/live3.jpg") no-repeat center;
     background-size: cover;
     height: 200px;
-    min-width: 375px;
+    min-width: 300px;
 
 }
 
@@ -206,6 +241,16 @@ body{
 
 
 
+/* Random Tadbits */
+.divider{
+    padding: 12px 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    background-color: #1a2e4e;
+    border: solid white 2px;
+
+}
 .text{
    padding: 0 50px;
 }
@@ -235,4 +280,21 @@ footer{
 }
 footer > small {
     padding-left: 10px;
+}
+
+
+
+/* MOBILE SECTION */
+
+@media only screen and (max-width: 991px) {
+    nav{
+        flex-direction: column;
+        min-width: 100px;
+    }
+    nav a{
+        width: 80vw;
+        height: 200px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
 }
