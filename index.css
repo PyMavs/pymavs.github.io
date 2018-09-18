@@ -1,38 +1,71 @@
 
 
 body{
-    font-family: 'Exo', sans-serif;
+    font-family: 'Lato', sans-serif;
     padding: 0px;
     margin: 0px;
-   
+    height: auto;
+    background-color: #1a2e4e;
+    position: relative;
+
+
+}
+
+a{
+    text-decoration: none;
 }
 
 /* NAVBAR SECTION */
+
+.main-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    margin: 0px;
+    height: 150px;
+    width: 100%;
+    color: #f2f2f2;
+    /* background-color: black; */
+}
+
+.banner-image{
+    flex-basis: 500px;
+    flex-shrink: 0;
+    height: 200px;
+    /* border-bottom: solid #213A61 2px; */
+    /* border-right: solid #213A61 2px; */
+    background: url("./resc/img/py_logo_md.png") no-repeat center;
+    /* background: url("./resc/img/pymavsbanner.png") no-repeat center; */
+    background-size: contain;
+}
+
 nav{
     margin-top: 50px;
     margin-bottom: 50px;
-    min-width: 800px;
+    max-width: 600px;
     
     display: flex;
     align-items: center;
     justify-content: space-around;
+    flex-grow:1;
 }
 
 nav a{
     display: flex;
     width: 100%;
-    height: 45px;
+    height: 40px;
     justify-content: center;
     align-items: center;
-    border: solid white 2px;
+    border-bottom: solid white 2px;
     color: white;
-    background-color: #1a2e4e;
+    /* background-color: #1a2e4e; */
     text-decoration: none;
 }
 .active{
     color: black;
     background-color: white;
-    border: solid white 2px;
+    /* border: solid white 2px; */
     font-weight: bolder;
 }
 
@@ -40,55 +73,32 @@ nav a{
 /* END NAVBAR */
 
 /*Main Body Section*/
+
 .body{
-    display: flex;
-    flex-direction: column;
+    display: block;
+    position: relative;
     align-items: center;
-    /* background-color: white; */
-    background-color: #1a2e4e;
+    padding: 10px 50px 20px;
+    background-color: #14233B;
+    grid-area: "a";
 
 }
-.body > div{
-    /* background-color: white; */
-}
+
 
 .container{
-    width: 80%;
-    padding: 40px 0px 0px;
-    /* margin-top: 60px;
-    margin-bottom: 40px; */
+    width: 75%;
+    padding: 20px 0px 0px;
 } 
 
 .content{
-    background-color: white;
-    padding: 20px 30px 40px;
+    color: #FFFFFF;
+    padding: 10px 20px 40px;
 }
 
 .title{
     margin-bottom: 20px;
 }
 
-.main-header{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    margin: 0px;
-    padding: 0px;
-    height: 15em;
-    width: 100%;
-    color: #f2f2f2;
-    /* background-color: #14233B; */
-    background-image: linear-gradient(#14233B, #14233B, #14233B, #14233B, #14233B,  #14233B, #1a2e4e);
-}
-.banner-image{
-    width: 90%;
-    height: 200px;
-    /* border-bottom: solid #213A61 2px; */
-    /* border-right: solid #213A61 2px; */
-    background: url("./resc/img/pymavsbanner.png") no-repeat center;
-    background-size: contain;
-}
 
 .logo-txt{
     color: #345c9a ;
@@ -120,7 +130,7 @@ nav a{
 }
 .club-image{
     margin: 2px;
-    border: solid #efefef 2px;
+    /* border: solid #efefef 2px; */
 }
 
 #club-image-1{
@@ -149,8 +159,8 @@ nav a{
 
 
 
-/* EVENT SECTION*/
-.events{
+
+/* .events{
     padding: 0px 40px;;
     margin: 0px;
 }
@@ -173,87 +183,14 @@ nav a{
 .event-content > p{
 	padding: 0px;
     margin: 0px;
-}
-
-/* MEMBER SECTION */
-.members{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-
-}
-.member{
-    padding: 25px 20px;
-    display: flex;
-    align-items: center;
-    margin-right: 10px;
-    flex-wrap: wrap;
-
-}
-.member-image{
-    width: 100px;
-    height: 100px;
-    margin: 5px 20px;
-    background-color: red;
-}
-
-.member-llist-container{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-.member-llist{
-    display: flex;
-    margin: 10px 0px 5px 20px;
-
-    
-}
-.member-info{
-    border: solid black 2px;
-    padding: 0px 15px;
-    margin: 0px;
-    height: 40px;
-}
-.member-box{
-    padding-left: 0px;
-    margin-left: -2px;
-    width: 10px;
-    height: 40px;
-    border: solid black 2px;
-}
+} */
 
 
-
-.member-info{
-    padding: 10px;
-    display: flex;
-}
-
-
-.form-container{
-    padding: 40px;
-    /* display: flex; */
-}
-#mc_embed_signup_scroll{
-    display: flex;
-    justify-content: center;
-}
 
 
 
 /* Random Tadbits */
-.divider{
-    padding: 12px 30px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    color: white;
-    background-color: #1a2e4e;
-    border: solid white 2px;
 
-}
-.text{
-   padding: 0 50px;
-}
 
 .key{
     font-weight: bold;
@@ -266,35 +203,130 @@ nav a{
 .txt-red {color: #F82648;}
 .txt-green {color: #158A88;}
 .txt-blue{color: #52A5AB;}
-.txt-yellow{color: #D8A621}
-
-
+.txt-yellow{color: rgb(167, 123, 4)}
+.txt-white{color: white;}
+.txt-gray{color: rgb(169, 169, 169);}
 
 
 /*Footer Section*/
 footer{
-    padding-left: 40px;
+    /* grid-area: "b"; */
+    position: absolute;
+    
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    /* padding-left: 40px; */
     background-color: #1a2e4e;
     color:darkgray;
-    height: 20px;
+    height: 10vh;
+    font-size: .7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
-footer > small {
-    padding-left: 10px;
+footer > div{
+    padding: 0px 15px;
+    
+}
+.footer-location{
+    border-right: solid rgb(169, 169, 169) 2px;
 }
 
+
+.footer-contact{
+    border-right: solid rgb(169, 169, 169) 2px;
+}
+
+.footer-socials{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.footer-social{
+    padding: 0px;
+    margin: 0px 5px;
+    height: 40px;
+    width: 40px;
+    transition: all .2s ease-in-out;
+}
+
+footer > div > p{
+    padding: 0px;
+    margin: 0px;
+}
+#facebook-icon{
+    width: 40px;
+    height: 40px;
+}
+#groupme-icon{
+    fill: red;
+
+}
+#email-icon{
+
+}
+
+.footer-social:hover{
+    transform: scale(1.1);
+
+    
+}
 
 
 /* MOBILE SECTION */
 
 @media only screen and (max-width: 991px) {
+    .body{
+        padding: 10px 5px;
+    }
     nav{
-        flex-direction: column;
+        /* flex-direction: column; */
+        /* align-items: space-between; */
         min-width: 100px;
+        margin: auto;
     }
     nav a{
         width: 80vw;
-        height: 200px;
-        padding-top: 20px;
-        padding-bottom: 20px;
+        height: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .banner-image{
+        margin: auto;
+        flex-basis: 200px;
+        max-width:  500px;
+        height: 100px;
+        flex-shrink: 1;
+    }
+    .container{
+        padding: 0px;
+        width: 95%;
+    }
+    .content{
+        padding: 0px;
+    }
+
+    .main-header{
+        display: inline-block;
+        height: auto;
+    }
+    .club-image{
+        /* border: solid red 20px; */
+    }
+    #club-image-1 #club-image-2 #club-image-3{
+        min-width: 250px;
+    }
+    footer{
+        padding-top:20px;
+        padding-bottom: 10px;
+        padding-left: 40px;
+        /* height: auto; */
+        font-size: .6em;
+        display: block;
+    }
+    footer > div{
+        padding-bottom: 10px;
     }
 }

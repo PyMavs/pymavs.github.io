@@ -1,0 +1,59 @@
+.body{
+    /* background: red; */
+    background: url("./resc/img/uta_building_ld.png");
+    background-size: cover;
+    padding: 0 5px;
+    height: 100%;
+}
+.home-container{
+    color: white;
+    padding: 0px 30px 20px;
+    margin: 100px auto 225px;
+
+}
+.home-container > .content{
+    max-width: 500px;
+}
+
+.home-text{
+    padding: 0px 5px 20px 5px;
+}
+
+.btn{
+    margin: 20px 25px 10px 0px;
+    text-decoration: none;
+    width: 100px;
+    height: 30px;
+    padding: 10px 18px;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-group{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 50px;
+}
+
+.btn-red{
+    background-color: rgb(235, 39, 39);
+    border: solid rgb(235, 39, 39) 2px;
+
+}
+
+.btn-black{
+    background-color: transparent;
+    border: solid white 2px;
+}
+
+
+
+
+@media only screen and (max-width: 991px) {
+    .home-container{
+        padding: 0px;
+    }
+}

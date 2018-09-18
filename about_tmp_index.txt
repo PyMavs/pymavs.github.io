@@ -1,0 +1,72 @@
+
+            <div class="container">
+                <div class="content">
+                    <h3 class="title"><span class="txt-blue">def</span> <span class="txt-green">About( )</span>:</h3>
+                    <div class="text">
+                        <p>Welcome to <span class="txt-yellow">PyMavs</span></p>
+                        <p>PyMavs is a new organization at the University of Texas at Arlington that focuses primary in Python. We pride ourselves in developing each other as better python programmers.</p>
+                        <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis quam eros, eu euismod quam tincidunt fringilla. Nullam varius, lacus nec laoreet viverra, justo libero interdum eros, at iaculis enim augue sit amet tellus. Sed et consectetur ante, sit amet dignissim quam. Curabitur quis velit tellus. Mauris ut ultrices libero. Morbi venenatis augue id libero sodales molestie. In tristique congue pretium. Phasellus euismod nisl vel euismod convallis. Vivamus pharetra turpis dui, eu sodales sem pulvinar nec. </p> -->
+                        <p>Get the latest news by joining our <a href="https://github.us18.list-manage.com/subscribe?u=ca60262c67543f2faeb7f0fc8&id=cb9f43de90">Mailing List</a>! </p>
+                        <p>Get involved whether you are new to coding or have been coding since you were 5.</p> 
+                    </div>
+                    <div class="club-image-container">
+                        <div class="club-image" id="club-image-1"></div>
+                        <div class="club-image" id="club-image-2"></div>
+                        <div class="club-image" id="club-image-3"></div>
+                    </div>
+                </div>
+                
+            </div>
+            
+            <!--    EVENTS      -->
+            <div class="container">
+                <div class="divider">Events.py</div>
+
+                <div class="content">
+                    <h3 class="title"><span class="txt-blue">def</span> <span class="txt-green">Events( )</span>:</h3>
+            
+                    <div class="events">
+                        
+                        <div class="event">
+                            <h4 class="event-title">&lt; General Meeting &gt; <small>September 7th</small></h4>
+                            <div class="event-content">
+                                <p> <span class="txt-red">Time: </span> Friday 12pm (9/7/18)</p>
+                                <p> <span class="txt-red">Location: </span>NH 100</p>
+                                <p> <span class="txt-red">About: </span>Our first general body meeting!</p>
+                                <p> <span class="txt-red">Agenda: </span></p>
+                                <div>
+                                    <ol>
+                                        <li>Welcome</li>
+                                        <li>What we have planned this year</li>
+                                        <li>How to become a member</li>
+                                        <li class="txt-green">Elect a treasurer</li>
+                                        <li>Q & A</li>
+                                        <li>Networking!</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+            </div>
+
+            <!--    Contact     -->
+            <div class="container">
+                <div class="divider">Contact.py</div>
+                <div class="content">
+                    <h3 class="title"><span class="txt-blue">def</span> <span class="txt-green">Contact_Us( )</span>:</h3>
+                    <div class="text">
+                        <p><span class="txt-yellow">Contact</span> = {</p>
+                        <p class="tab">"Email": <a href="#">"Pymavs@UTA.com"</a></p>
+                        <p class="tab">"Room": "ERB-123"</p>
+                        <p class="tab">"Mailing-List": <a href="https://github.us18.list-manage.com/subscribe?u=ca60262c67543f2faeb7f0fc8&id=cb9f43de90">"Link!"</a></p>
+                        <p>}</p>
+                        <p><span class="txt-red">return </span>Contact</p>
+    
+                    </div>
+                </div>
+                
+
+            </div>
