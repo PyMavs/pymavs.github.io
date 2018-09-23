@@ -58,7 +58,7 @@
 
 /* EVENT SECTION*/
 #event{
-    padding-bottom: 125px;
+    padding-bottom: 25px;
     background:black;
 }
 .events{
@@ -178,9 +178,21 @@
     background: #BB5455;
     font-weight: bold;
     font-size: 1.2em;
-    /* border-left: solid #C86667 3px; */
     border-top: solid #C86667 3px;
     border-right: solid #A54457 3px;
     border-radius: 2px;
 
+}
+
+
+
+/* MOBILE SECTION */
+
+@media only screen and (max-width: 991px) {
+    .banner{
+        padding: 10px;
+    }
+    .member{
+        margin: 0px;
+    }
 }
