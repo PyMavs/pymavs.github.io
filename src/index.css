@@ -1,0 +1,343 @@
+
+body{
+    font-family: 'Lato', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    background-color: #1A2E4E;
+    position: relative;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+/* NAVBAR SECTION */
+
+.main-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    margin: 0px;
+    height: 150px;
+    width: 100%;
+    color: #f2f2f2;
+    /* background-color: black; */
+}
+
+.banner-image{
+    flex-basis: 500px;
+    flex-shrink: 0;
+    height: 200px;
+
+    background: url("./resc/img/py_logo_md.png") no-repeat center;
+    background-size: contain;
+}
+
+nav{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    max-width: 600px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-grow:1;
+}
+
+nav a{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid white 2px;
+    color: white;
+    /* background-color: #1a2e4e; */
+    text-decoration: none;
+}
+.active{
+    color: black;
+    background-color: white;
+    /* border: solid white 2px; */
+    font-weight: bolder;
+}
+
+
+/* END NAVBAR */
+
+/*Main Body Section*/
+
+.body{
+    display: block;
+    position: relative;
+    height: 100vh;
+    align-items: center;
+    padding: 10px 50px 20px;
+    background-color: #14233B;
+    grid-area: "a";
+
+}
+
+
+.container{
+    width: 75%;
+    padding: 20px 0px 0px;
+} 
+
+.content{
+    color: #FFFFFF;
+    padding: 10px 20px 40px;
+}
+
+.title{
+    margin-bottom: 20px;
+}
+
+
+.logo-txt{
+    color: #345c9a ;
+    font-weight: bold;
+}
+
+
+/* Parallax Container */
+.p-container{
+    align-self: flex-end;
+    width: 40vw; height: 30vh;
+    padding: 10px;
+    background-color: red; 
+}
+
+/* ABOUT SECTION */
+
+
+/* --- images --- */
+.club-image-container{
+    margin-top: 50px;
+    width: 100%;
+    /* border: solid red 2px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.club-image{
+    margin: 2px;
+    /* border: solid #efefef 2px; */
+}
+
+#club-image-1{
+    background: url("./resc/img/live2.jpg") no-repeat center;
+    background-size: cover;
+    height: 200px;
+    min-width: 300px;
+
+}
+
+#club-image-2{
+    background: url("./resc/img/live.jpg") no-repeat center;
+    background-size: cover;
+    height: 250px;
+    min-width: 300px;
+
+}
+
+#club-image-3{
+    background: url("./resc/img/live3.jpg") no-repeat center;
+    background-size: cover;
+    height: 200px;
+    min-width: 300px;
+
+}
+
+
+
+
+/* .events{
+    padding: 0px 40px;;
+    margin: 0px;
+}
+.event{
+    padding: 0px;
+    margin: 0px;
+}
+.event-title{
+    background-color: #5C5C70;
+    color: #D4D4D4;
+    padding: 10px;
+    margin: 0px;
+}
+.event-content {
+    background-color: #F1F1F1;
+    padding: 10px;
+    padding-left: 40px;
+    
+}
+.event-content > p{
+	padding: 0px;
+    margin: 0px;
+} */
+
+
+
+
+
+/* Random Tadbits */
+
+
+.key{
+    font-weight: bold;
+    color: #B33732;;
+  }
+
+.tab{padding-left: 40px;}
+
+.bold{font-weight: bold;}
+.txt-red {color: #F82648;}
+.txt-green {color: #158A88;}
+.txt-blue{color: #52A5AB;}
+.txt-yellow{color: rgb(167, 123, 4)}
+.txt-white{color: white;}
+.txt-gray{color: rgb(169, 169, 169);}
+
+
+/*Footer Section*/
+footer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #1a2e4e;
+    color:darkgray;
+    height: auto;
+    font-size: .7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+footer > div{
+    padding: 0px 15px;
+    height: auto;
+    
+}
+.footer-location{
+    border-right: solid rgb(169, 169, 169) 2px;
+}
+
+
+.footer-contact{
+    border-right: solid rgb(169, 169, 169) 2px;
+}
+
+.footer-socials{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.footer-social{
+    padding: 0px;
+    margin: 0px 5px;
+    height: 40px;
+    width: 40px;
+    transition: all .2s ease-in-out;
+}
+
+footer > div > p{
+    padding: 0px;
+    margin: 0px;
+}
+#facebook-icon{
+    width: 40px;
+    height: 40px;
+}
+#groupme-icon{
+    fill: red;
+
+}
+#email-icon{
+
+}
+
+.footer-social:hover{
+    transform: scale(1.1);
+
+    
+}
+
+
+/* MOBILE SECTION */
+
+@media only screen and (max-width: 991px) {
+    .body{
+        padding: 10px 5px;
+    }
+    nav{
+        /* flex-direction: column; */
+        /* align-items: space-between; */
+        min-width: 100px;
+        margin: auto;
+    }
+    nav a{
+        width: 80vw;
+        height: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .banner-image{
+        margin: auto;
+        flex-basis: 200px;
+        max-width:  500px;
+        height: 100px;
+        flex-shrink: 1;
+    }
+    .container{
+        padding: 0px;
+    }
+    .content{
+        padding: 0px;
+    }
+
+    .main-header{
+        display: inline-block;
+        height: auto;
+    }
+
+
+
+    #club-image-1 #club-image-2 #club-image-3{
+        min-width: 250px;
+    }
+    footer{
+        padding-top:20px;
+        padding-bottom: 10px;
+        padding-left: 40px;
+        /* height: auto; */
+        font-size: .6em;
+        /* display: block; */
+    }
+   
+}
+
+@media only screen and (max-width: 665px) {
+    footer{
+        /* display: flex; */
+        flex-direction: column;
+        border: none;
+    }
+    .footer-location{
+        border: none;
+        margin-top: 30px;
+    }
+    .footer-contact{
+        border: none;
+    }
+    .footer-contact > p{
+        margin: 20px 2px;
+        font-size: 1.3em;
+    }
+    .footer-socials{
+        margin: 20px 2px;
+    }
+}
