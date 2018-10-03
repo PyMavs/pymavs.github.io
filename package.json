@@ -1,0 +1,32 @@
+{
+  "name": "pymavs.github.io",
+  "version": "1.0.0",
+  "description": "UTA pymavs website",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PyMavs/pymavs.github.io.git"
+  },
+  "author": "Ivan Jaimes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PyMavs/pymavs.github.io/issues"
+  },
+  "homepage": "https://github.com/PyMavs/pymavs.github.io#readme",
+  "devDependencies": {
+    "node-sass": "^4.9.3",
+    "sass-loader": "^7.1.0",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.1"
+  },
+  "dependencies": {
+    "css-loader": "^1.0.0",
+    "style-loader": "^0.23.0"
+  }
+}
