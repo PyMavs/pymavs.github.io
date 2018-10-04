@@ -26,8 +26,6 @@
 
 .body{
     background-color: #060C18;
-
-
     height: auto;
 
 }
@@ -55,39 +53,6 @@
     margin-top: 0px;
     padding: 10px;
 }
-
-/* EVENT SECTION*/
-#event{
-    padding-bottom: 25px;
-    background:black;
-}
-.events{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.event{
-    padding: 25px;
-    display: flex;
-    min-width: 100%;
-    flex-wrap: nowrap;
-}
-.event > div{
-    padding: 10px;
-}
-.event-time{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.event-day{
-    margin-bottom: 2px;
-}
-.event-info{
-    margin: auto 3w0px;
-}
-
 
 
 /* MEMBER SECTION */
