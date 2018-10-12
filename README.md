@@ -1,11 +1,20 @@
 # pymavs.github.io
 Python user group at UT Arlington
 
-Live page: Master Branch  
-Developer page: Dev Branch
+## Installing
+To install run 
 
-## Notes for Development
-Development page (with experiemental features) is being worked out on the 'Dev' branch.
+``` bash
+git clone https://github.com/PyMavs/pymavs.github.io
+```
+
+## Pushing Changes
+To commit and push your changes run
+``` bash
+git add .
+git commit -m "Write what you did here as a string"
+git push // or pull....idk 
+```
 
 
 #### Frameworks being used
