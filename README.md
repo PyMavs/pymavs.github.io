@@ -2,7 +2,7 @@
 Python user group at UT Arlington
 
 ## Installing
-To install run 
+To install run
 
 ``` bash
 git clone https://github.com/PyMavs/pymavs.github.io
@@ -13,7 +13,7 @@ To commit and push your changes run
 ``` bash
 git add .
 git commit -m "Write what you did here as a string"
-git push // or pull....idk 
+git push // or pull....idk
 ```
 
 
@@ -23,5 +23,4 @@ git push // or pull....idk
   - Javascript
   - JQuery
 
-  
-
+  test1
