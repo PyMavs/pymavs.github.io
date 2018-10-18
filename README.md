@@ -6,6 +6,8 @@ To install run
 
 ``` bash
 git clone https://github.com/PyMavs/pymavs.github.io
+cd pymavs.github.io
+npm install
 ```
 
 ## Pushing Changes
